@@ -443,5 +443,165 @@ json 구조 명세
 		]
 	}
 ```
-* `cerebellum-cortex` : Subcortex - cerebellum-cortex, %.2f, Deep Analysis - 2 page에 출력
-	* [좌, 우] 순으로 출력
+* `cerebellum-cortex` : Subcortex - cerebellum-cortex, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Thalamus` : Subcortex - Thalamus, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Caudate` : Subcortex - Caudate, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Putamen` : Subcortex - Putamen, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Pallidum` : Subcortex - Pallidum, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Hippocampus` : Subcortex - Hippocampus, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Amygdala` : Subcortex - Amygdala, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+* `Accumbens` : Subcortex - Accumbens, Deep Analysis - 3 page에 출력
+	* [좌 Volume, 좌 Volume/ICV, 좌 Volume/TBV, 우 Volume, 우 Volume/ICV, 우 Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f, %.1f, %.4f, %.4f]
+
+```json
+	"WhiteMatter": {
+		"LeftCBralWM": [
+			268743.751297,
+			0.1678287617965108,
+			0.22485498193755452
+		],
+		"LeftCBellumWM": [
+			14514.4,
+			0.009064150397778825,
+			0.012144041058010169
+		],
+		"RightCBralWM": [
+			272779.786529,
+			0.17034924010450714,
+			0.2282318888416624
+		],
+		"RightCBellumWM": [
+			15048.7,
+			0.009397817346294317,
+			0.01259108407303627
+		],
+		"MidBrain": [
+			7648.7,
+			0.0047765644565046375,
+			0.006399584332828252
+		],
+		"Medulla": [
+			5941.3,
+			0.003710304026230732,
+			0.004971021271148364
+		],
+		"Pons": [
+			18353.0,
+			0.011461331660312159,
+			0.015355756044869965
+		]
+	}
+```
+* `LeftCBralWM` : White Matter - Left-Cerebral-White-Matter, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `LeftCBellumWM` : White Matter - Left-Cerebellum-White-Matter, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `RightCBralWM` : White Matter - Right-Cerebral-White-Matter, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `RightCBellumWM` : White Matter - Right-Cerebellum-White-Matter, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `MidBrain` : White Matter - Midbrain, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `Medulla` : White Matter - Medulla, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `Pons` : White Matter - Pons, Deep Analysis - 3 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+
+```json
+	"CSF": {
+		"LeftLV": [
+			9004.5,
+			0.0056232529251501575,
+			0.00753396748793285
+		],
+		"LeftInfLV": [
+			308.4,
+			0.00019259383665015363,
+			0.0002580349351189395
+		],
+		"LeftChoroidPlexus": [
+			1213.3,
+			0.0007576981258353806,
+			0.0010151549506478902
+		],
+		"RightLV": [
+			7554.9,
+			0.0047179869536583844,
+			0.006321102890175344
+		],
+		"RightInfLV": [
+			296.0,
+			0.00018485011559158716,
+			0.0002476599896083207
+		],
+		"RightChoroidPlexus": [
+			1090.7,
+			0.0006811352063369734,
+			0.0009125768603574169
+		],
+		"3rd-Ventricle": [
+			1312.7,
+			0.0008197727930306637,
+			0.0010983218525636575
+		],
+		"4th-Ventricle": [
+			1654.5,
+			0.0010332247170482464,
+			0.0013843022054289412
+		],
+		"CSF": [
+			1135.6,
+			0.000709174970492589,
+			0.000950144203375706
+		]
+	}
+```
+* `LeftLV` : Cerebrospinal Fluid - Left-Leteral-Ventricle, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `LeftInfLV` : Cerebrospinal Fluid - Left-Inf-Lat-Vent, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `LeftChoroidPlexus` : Cerebrospinal Fluid - Left-choroid-plexus, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `RightLV` : Cerebrospinal Fluid - Right-Leteral-Ventricle, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `RightInfLV` : Cerebrospinal Fluid - Right-Inf-Lat-Vent, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `RightChoroidPlexus` : Cerebrospinal Fluid - Right-choroid-plexus, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `3rd-Ventricle` : Cerebrospinal Fluid - 3rd-Ventricle, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `4th-Ventricle` : Cerebrospinal Fluid - 4th-Ventricle, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
+* `CSF` : Cerebrospinal Fluid - CSF, Deep Analysis - 4 page에 출력
+	* [Volume, Volume/ICV, Volume/TBV] 순으로 출력
+	* [%.1f, %.4f, %.4f]
